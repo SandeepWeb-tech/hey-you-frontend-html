@@ -1,0 +1,74 @@
+*{
+    box-sizing: border-box;
+}
+body{
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+.header{
+    background-image: url("ii.png");
+    background-size: cover;
+    height: calc(100vh - 10px);
+}
+.logo{
+    display: inline-block;
+    width: 50%;
+    color: antiquewhite;
+    font-family: Apple Chancery;
+}
+span{
+    font-size: 50px;
+}
+.nav-link{
+  float: right;
+  padding: 19px;
+  color: white;
+}
+.nav-link a{
+  margin-right: 10px;
+    font-size: 15px;
+    
+    text-align: center;
+    padding: 8px;
+    color: white;
+    text-decoration: none;
+    border-radius: 10px;
+    outline: none;
+  
+}
+.nav-link a:hover{
+    background-color: antiquewhite;
+    color: black;
+    border: 1px solid aqua;
+}
+#sign{
+    padding: 10px 14px 10px 14px;
+    font-size: 20px;
+    border-radius: 50px;
+    box-shadow: 0 0 4px 3px  red;
+}
+
+.section{
+    width: 35%;
+    margin-top: 150px;
+    margin-left: 150px;
+}
+.main_art h1{
+    font-size: 50px;
+    color: white;
+    font-family: Harrington;
+}
+.main_art p{
+    font-size: 15px;
+    color: white;
+    font-family: Herculanum;
+}
+.btn{
+    margin-top: 20px;
+    padding: 10px;
+    background-color: black;
+    border: 1px solid aqua;
+}
+.btn:hover{
+    background-color: white;
+    color: black;
+}
